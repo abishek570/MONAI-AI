@@ -74,7 +74,7 @@ The dataset is used to train with two models
     ```    
 ## Datasets Example
 
-### Original Dataset
+## Original Dataset
 
 ![Image](https://github.com/abishek570/MONAI-AI/blob/main/Screenshot%202025-03-18%20174531.png)
 
