@@ -75,3 +75,4 @@ The dataset is used to train with two models
 ### Datasets Example
 ![Image](https://github.com/abishek570/MONAI-AI/blob/main/Screenshot%202025-03-18%20174531.png)
 
+![Image](https://github.com/abishek570/MONAI-AI/blob/main/Screenshot%202025-03-18%20181327.png)
