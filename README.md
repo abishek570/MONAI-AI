@@ -4,7 +4,7 @@
 
 ## Overview
 
-VitaVision AI is an advanced AI-powered medical diagnosis system designed to predict diseases and sege=ment the diseased are using a multitasking model architectures. The system is fine-tuned on a comprehensive datasets encompassing diseases which will classify the disease and then segment the disease to serve the disease severity and metadata. It will generate a detailed report on the diagnosis of the disease by providing description, symptoms and prescriptions.
+VitaVision AI is an advanced AI-powered medical diagnosis system designed to predict diseases and segment the diseased area using multitasking model architectures. The system is fine-tuned on a comprehensive datasets encompassing diseases which will classify the disease and then segment the disease to serve the disease severity and metadata. It will generate a detailed report on the diagnosis of the disease by providing description, symptoms and prescriptions.
 
 
 ## Models
@@ -76,8 +76,12 @@ The dataset is used to train with two models
 
 ## Original Dataset
 
+These dataset is used for training the model for classification process. The datasets will be in any of these formats (png, jpg, dcm). But, usage of dcm files will give more meta data and its modality whether it is a MRI, CT or ultrasound. 
+
 ![Image](https://github.com/abishek570/MONAI-AI/blob/main/Screenshot%202025-03-18%20174531.png)
 
 ## Masked Dataset
 
+The Masked dataset combined with the original dataset is used for segmentation process. The datasets will be in the (png, jpg, dcm). These masks will predict the accurate location of the disease, and also size, volume and other meta data.
+ 
 ![Image](https://github.com/abishek570/MONAI-AI/blob/main/Screenshot%202025-03-18%20181327.png)
