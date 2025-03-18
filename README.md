@@ -76,12 +76,12 @@ The dataset is used to train with two models
 
 ## Original Dataset
 
-These dataset is used for training the model for classification process. The datasets will be in any of these formats (png, jpg, dcm). But, usage of dcm files will give more meta data and its modality whether it is a MRI, CT or ultrasound. 
+The dataset for training classification models includes images in PNG, JPG, or DICOM (DCM) formats. DICOM files provide richer metadata, including patient details, scan modality (MRI, CT, ultrasound), and acquisition settings. Organizing data with proper labels and metadata enables efficient preprocessing, feature extraction, and model training for accurate disease classification.
 
 ![Image](https://github.com/abishek570/MONAI-AI/blob/main/Screenshot%202025-03-18%20174531.png)
 
 ## Masked Dataset
 
-The Masked dataset combined with the original dataset is used for segmentation process. The datasets will be in the (png, jpg, dcm). These masks will predict the accurate location of the disease, and also size, volume and other meta data.
- 
+The masked dataset, combined with the original dataset, is used for segmentation to identify disease regions. It includes PNG, JPG, or DICOM (DCM) formats. Masks help predict the precise location, size, and volume of abnormalities, while DICOM files provide additional metadata for enhanced medical analysis and diagnosis.
+
 ![Image](https://github.com/abishek570/MONAI-AI/blob/main/Screenshot%202025-03-18%20181327.png)
